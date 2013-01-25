@@ -151,7 +151,6 @@
     <Content Include="js\assets\google-analytics.js" />
     <Content Include="js\assets\jquery-1.8.2.min.js" />
     <Content Include="js\assets\jquery.mousewheel.min.js" />
-    <Content Include="js\carousel.js" />
     <Content Include="js\google-code-prettify\lang-apollo.js" />
     <Content Include="js\google-code-prettify\lang-clj.js" />
     <Content Include="js\google-code-prettify\lang-css.js" />
