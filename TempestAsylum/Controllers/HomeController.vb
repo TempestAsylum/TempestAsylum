@@ -1,21 +1,13 @@
-﻿Public Class HomeController
-    Inherits System.Web.Mvc.Controller
+﻿Namespace TempestAsylum
+    Public Class HomeController
+        Inherits System.Web.Mvc.Controller
 
-    Function Index() As ActionResult
-        ViewData("Message") = ""
+        '
+        ' GET: /Home
 
-        Return View()
-    End Function
+        Function Index() As ActionResult
+            Return View()
+        End Function
 
-    Function About() As ActionResult
-        ViewData("Message") = "Tempest Asylum."
-
-        Return View()
-    End Function
-
-    Function Contact() As ActionResult
-        ViewData("Message") = "Your contact page."
-
-        Return View()
-    End Function
-End Class
+    End Class
+End Namespace
