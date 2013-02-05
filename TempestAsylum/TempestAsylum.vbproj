@@ -174,10 +174,6 @@
     <Content Include="Images\4column.png" />
     <Content Include="Images\5code.jpg" />
     <Content Include="Images\5google.jpg" />
-    <Content Include="Images\advertising\audioadvertising.jpg" />
-    <Content Include="Images\advertising\graphicadvertising.jpg" />
-    <Content Include="Images\advertising\themeadvertising.jpg" />
-    <Content Include="Images\advertising\tutorialadvertising.jpg" />
     <Content Include="Images\arrow-down.png" />
     <Content Include="Images\arrow-up.png" />
     <Content Include="Images\avatar-reply.jpg" />
@@ -251,6 +247,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Images\advertising\" />
     <Folder Include="Images\leagueoflegends\champions\" />
   </ItemGroup>
   <ItemGroup>
