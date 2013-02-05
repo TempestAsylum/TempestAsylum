@@ -39,6 +39,10 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FTI, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Visual Studio 2010\Projects\FTI\FTI\bin\Debug\FTI.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -142,54 +146,99 @@
     <Compile Include="Controllers\AccountController.vb" />
     <Compile Include="Controllers\ChampionController.vb" />
     <Compile Include="Controllers\HomeController.vb" />
+    <Compile Include="Controllers\NewsController.vb" />
+    <Compile Include="Controllers\TournamentController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModel.vb" />
+    <Compile Include="Models\TournamentModel.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\FilterConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="App_Start\WebApiConfig.vb" />
+    <Content Include="css\fonts.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\media.css" />
+    <Content Include="css\transitions.css" />
+    <Content Include="css\twitter.css" />
+    <Content Include="css\web-style.css" />
+    <Content Include="font\BebasNeue-webfont.svg" />
+    <Content Include="font\helveticaltstd-roman-webfont.svg" />
     <Content Include="Global.asax" />
-    <Content Include="css\modern.css" />
+    <Content Include="Images\1column.png" />
+    <Content Include="Images\2column.png" />
+    <Content Include="Images\3column.png" />
+    <Content Include="Images\4column.png" />
+    <Content Include="Images\5code.jpg" />
+    <Content Include="Images\5google.jpg" />
+    <Content Include="Images\advertising\audioadvertising.jpg" />
+    <Content Include="Images\advertising\graphicadvertising.jpg" />
+    <Content Include="Images\advertising\themeadvertising.jpg" />
+    <Content Include="Images\advertising\tutorialadvertising.jpg" />
+    <Content Include="Images\arrow-down.png" />
+    <Content Include="Images\arrow-up.png" />
+    <Content Include="Images\avatar-reply.jpg" />
+    <Content Include="Images\avatar.jpg" />
+    <Content Include="Images\bg.png" />
+    <Content Include="Images\calender-big.jpg" />
+    <Content Include="Images\calender-icon.png" />
+    <Content Include="Images\chat-icon.png" />
+    <Content Include="Images\cleansleek-icon.png" />
+    <Content Include="Images\clock-icon.png" />
+    <Content Include="Images\cross-hover.png" />
+    <Content Include="Images\cross.png" />
+    <Content Include="Images\tournaments\dgl.jpg" />
+    <Content Include="Images\download-icon.png" />
+    <Content Include="Images\favicon.png" />
+    <Content Include="Images\footer-bg.png" />
+    <Content Include="Images\footer-top.png" />
+    <Content Include="Images\games-icon.png" />
+    <Content Include="Images\google-icon.png" />
+    <Content Include="Images\greenalert.png" />
+    <Content Include="Images\header-bg.png" />
+    <Content Include="Images\home-icon.png" />
+    <Content Include="Images\infoalert.png" />
+    <Content Include="Images\large-twitter.png" />
+    <Content Include="Images\latesttestimonial.png" />
+    <Content Include="Images\message-icon.png" />
+    <Content Include="Images\orange-cross.png" />
+    <Content Include="Images\phone-icon.png" />
+    <Content Include="Images\red-cross.png" />
+    <Content Include="Images\rejectionalert.png" />
+    <Content Include="Images\responsive-icon.png" />
+    <Content Include="Images\scrolltop.png" />
+    <Content Include="Images\selltheme.jpg" />
+    <Content Include="Images\settings-icon.png" />
+    <Content Include="Images\simple-slider-arrows-hover.png" />
+    <Content Include="Images\simple-slider-arrows.png" />
+    <Content Include="Images\slider-banners\slider01.jpg" />
+    <Content Include="Images\slider-banners\slider02.jpg" />
+    <Content Include="Images\slider-banners\slider03.jpg" />
+    <Content Include="Images\slider\arrows.png" />
+    <Content Include="Images\slider\bullets.png" />
+    <Content Include="Images\slider\loading.gif" />
+    <Content Include="Images\small-twitter.png" />
+    <Content Include="Images\social-slider.png" />
+    <Content Include="Images\speach-lower.png" />
+    <Content Include="Images\tag-icon.png" />
+    <Content Include="Images\tick.png" />
     <Content Include="Images\TmA.jpg" />
-    <Content Include="js\assets\github.info.js" />
-    <Content Include="js\assets\google-analytics.js" />
-    <Content Include="js\assets\jquery-1.8.2.min.js" />
-    <Content Include="js\assets\jquery.mousewheel.min.js" />
-    <Content Include="js\google-code-prettify\lang-apollo.js" />
-    <Content Include="js\google-code-prettify\lang-clj.js" />
-    <Content Include="js\google-code-prettify\lang-css.js" />
-    <Content Include="js\google-code-prettify\lang-go.js" />
-    <Content Include="js\google-code-prettify\lang-hs.js" />
-    <Content Include="js\google-code-prettify\lang-lisp.js" />
-    <Content Include="js\google-code-prettify\lang-lua.js" />
-    <Content Include="js\google-code-prettify\lang-ml.js" />
-    <Content Include="js\google-code-prettify\lang-n.js" />
-    <Content Include="js\google-code-prettify\lang-proto.js" />
-    <Content Include="js\google-code-prettify\lang-scala.js" />
-    <Content Include="js\google-code-prettify\lang-sql.js" />
-    <Content Include="js\google-code-prettify\lang-tex.js" />
-    <Content Include="js\google-code-prettify\lang-vb.js" />
-    <Content Include="js\google-code-prettify\lang-vhdl.js" />
-    <Content Include="js\google-code-prettify\lang-wiki.js" />
-    <Content Include="js\google-code-prettify\lang-xq.js" />
-    <Content Include="js\google-code-prettify\lang-yaml.js" />
-    <Content Include="js\google-code-prettify\prettify.css" />
-    <Content Include="js\google-code-prettify\prettify.js" />
-    <Content Include="js\modern\accordion.js" />
-    <Content Include="js\modern\buttonset.js" />
-    <Content Include="js\modern\carousel.js" />
-    <Content Include="js\modern\dropdown.js" />
-    <Content Include="js\modern\input-control.js" />
-    <Content Include="js\modern\pagecontrol.js" />
-    <Content Include="js\modern\rating.js" />
-    <Content Include="js\modern\slider.js" />
-    <Content Include="js\modern\tile-drag.js" />
-    <Content Include="js\modern\tile-slider.js" />
-    <Content Include="js\sharrre\jquery.sharrre-1.3.4.min.js" />
+    <Content Include="Images\toggles.png" />
+    <Content Include="Images\tt.png" />
+    <Content Include="Images\upload-icon.png" />
+    <Content Include="Images\usefullinks.png" />
+    <Content Include="Images\user-icon.png" />
+    <Content Include="Images\usericon-big.jpg" />
+    <Content Include="Images\warningalert.png" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\google.map.js" />
+    <Content Include="js\jquery.isotope.min.js" />
+    <Content Include="js\jquery.nivo.slider.js" />
+    <Content Include="js\jquery.prettyPhoto.js" />
+    <Content Include="js\twitter.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -201,6 +250,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Images\leagueoflegends\champions\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -209,7 +259,6 @@
     <Content Include="Views\Home\Index.vbhtml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="js\sharrre\sharrre.php" />
     <Content Include="Views\Account\ChangePassword.vbhtml" />
     <Content Include="Views\Account\ChangePasswordSuccess.vbhtml" />
     <Content Include="Views\Account\Login.vbhtml" />
@@ -221,6 +270,21 @@
     <Content Include="Views\Home\JusticeSystem.vbhtml" />
     <Content Include="Views\Champion\Index.vbhtml" />
     <Content Include="Views\Account\Profile.vbhtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="font\BebasNeue-webfont.eot" />
+    <None Include="font\BebasNeue-webfont.ttf" />
+    <None Include="font\BebasNeue-webfont.woff" />
+    <None Include="font\helveticaltstd-roman-webfont.eot" />
+    <None Include="font\helveticaltstd-roman-webfont.ttf" />
+    <None Include="font\helveticaltstd-roman-webfont.woff" />
+    <Content Include="Views\Tournament\DGL.vbhtml" />
+    <Content Include="Views\News\Index.vbhtml" />
+    <Content Include="Views\Tournament\Index.vbhtml" />
+    <Content Include="Views\Tournament\Teams.vbhtml" />
+    <Content Include="Views\Tournament\Rules.vbhtml" />
+    <Content Include="Views\Tournament\DGL\_Teams.vbhtml" />
+    <Content Include="Views\Tournament\DGL\_Schedule.vbhtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

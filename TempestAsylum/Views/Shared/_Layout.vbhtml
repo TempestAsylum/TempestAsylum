@@ -4,83 +4,127 @@
         <meta charset="utf-8" />
         <title>@ViewData("Title")</title>
         <meta name="viewport" content="width=device-width" />        
-        </script>@System.Web.Optimization.Styles.Render("~/css/modern.css")
+        @System.Web.Optimization.Styles.Render("~/css/main.css")
+        <meta content="Tempest Asylum" name="description"></meta>
+        <meta content="Tempest, Asylum, Tempest Asylum" name="keywords"></meta>
+        @*<link href="http://www.derby-web-design-agency.co.uk/themes/response/images/favicon.png" rel="shortcut icon"></link>
+        <link href="http://www.derby-web-design-agency.co.uk/themes/response/images/favicon.png" rel="bookmark icon"></link>*@   
     </head>
     <body>
         <header>
-            <div class="content-wrapper">
-                <div align="center">
-                    <div class="span12">
-                        @*<div class="grid"> *@                   
-                            @*<div class="colum" align="left">
-                                <div class="span12">
-                                    <a href="/">
-                                        <img width="200" src="~/Images/TmA.jpg" alt/>
-                                    </a>
-                                </div>                        
-                            </div>*@
-                            @*<div class="colum" align="right">*@
-                                <div align="right">
-                                    <section id="login">
-                                        @Html.Partial("_LoginPartial")
-                                    </section>
-                                </div>                        
-                            @*</div>*@
-                        @*</div>   *@         
-                    </div>                       
-                </div>
+            <div id="header">
+    	            <!-- Start navigation area -->
+                    <div id="navigation">
 
-                <div align="center">
-                    <div class="span12">
-                        <div class="nav-bar bg-color-pink padding10">
-                            <div class="nav-bar-inner" > 
-                                <a href="/">
-                                    <span class="element brand">                                        
-                                        Tempest Asylum
-                                    </span>
-                                </a>
-                                
-                                <div class="divider"></div>
-                                <ul class="menu">            
+        	            <div id="navigation_wrap">
+
+                            <!-- Start contact info area -->
+                            <div id="conteactinfo">
+                                <section id="login">
+                                    @Html.Partial("_LoginPartial")
+                                </section>
+                            </div>
+                            <!-- End contact info area -->
+                            <!-- Start navigation -->
+                            <div id="navi">                
+                                <ul>                    
                                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                                     <li>@Html.ActionLink("Code of Conduct", "CodeofConduct", "Home")</li>
-                                    <li>@Html.ActionLink("Justice System", "JusticeSystem", "Home")</li>
-                                    @*<li>@Html.ActionLink("Champion", "Index", "Champion")</li>*@
-                                </ul>
-
+                                    <li>@Html.ActionLink("Justice System", "JusticeSystem", "Home")</li>   
+                                    <li>                                    
+                                        @Html.ActionLink("Tournament", "Index", "Tournament")
+                                        @*<ul>
+                                            <li>
+                                            @Html.ActionLink("DGL", "DGL", "Tournament")
+                                	            <ul>
+                                    	            <li><a href="#" title="Response Other Dropdown">Demo Tab</a></li>
+                                                    <li><a href="#" title="Response Other Dropdown">Demo Tab</a></li>
+                                                    <li><a href="#" title="Response Other Dropdown">Demo Tab</a></li>
+                                                    <li><a href="#" title="Response Other Dropdown">Demo Tab</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>*@
+                                    </li>              
+                                    @*<li>@Html.ActionLink("News", "Index", "News")</li>*@                   
+                                </ul>                
                             </div>
-                        </div>
+                            <!-- End navigation -->                
+			            </div>        
                     </div>
-                </div>
+                    <!-- End navigation area -->
+                    <div class="clear"></div>
+                    <!-- Start Social & Logo area -->
+                    <div id="header_small">
+        	            <!-- Start Social area -->
+        	            <div class="social">
+            	
+                            <ul>
+                            @*<li><a href="#" class="social-google"></a></li>*@
+                            <li><a href="http://www.facebook.com/groups/463020340418020/" target="_blank" class="social-facebook"></a></li>
+                            <li><a href="https://twitter.com/TempestAsylum" target="_blank" class="social-twitter"></a></li>
+                            <li><a href="http://www.youtube.com/user/TempestAsylum?feature=mhee" target="_blank" class="social-youtube"></a></li>
+                            @*<li><a href="#" class="social-linkedin"></a></li>
+                            <li><a href="#" class="social-forrst"></a></li>
+                            <li><a href="#" class="social-dribbble"></a></li>*@
+                            </ul>
+                
+                        </div>
+                        <!-- End Socialarea -->
+            
+                        <!-- Start Logo area -->
+                        <div id="logo">
+                          <a href="/" title="Tempest Asylum">@*<img width="100" src="~/images/TmA.jpg"/>*@ Tempest Asylum</a>
+                        </div>
+                        <!-- End Logo area -->
+        
+                    </div>
+                    <!-- End Social & Logo area -->
+
             </div>
         </header>
         <div id="body">
             @RenderSection("featured", required:=false)
-            <section class="content-wrapper main-content clear-fix">
-                <div align="center">
-                    <div class="span12">        
-                       <div class="page-region-content">
-                           @RenderBody()
-                       </div>
-                    </div>
-                </div>                
-            </section>
+            @RenderBody()
         </div>
+
         <footer>
-            <div class="content-wrapper" align="center">   
-                <div class="span10">
-                    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F76299713"></iframe>
+            <div id="footer">
+	            <!-- Start Footer Top -->
+	            <div id="footertop">    
+    	            <div class="footerwrap">
+                        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F76299713"></iframe>
+                    </div>
                 </div>
-                <div class="float-left">
-                    <p>&copy; @DateTime.Now.Year - FTI</p>
+	            <!-- End Footer Top -->
+                <div class="clear"></div>
+                <!-- Start Footer Bottom -->
+                <div id="footerbottom">
+    
+    	            <div class="footerwrap">
+        
+        	            <!-- Start Copyright Div -->
+                        <div id="copyright">@DateTime.Now.Year - FTI - All rights reserved</div>
+                        <!-- End Copyright Div -->
+
+                        <!-- Start Social area -->
+                        <div class="socialfooter">                
+                            <ul>
+                            @*<li><a href="#" class="social-google"></a></li>*@
+                            <li><a href="http://www.facebook.com/groups/463020340418020/" target="_blank" class="social-facebook"></a></li>
+                            <li><a href="https://twitter.com/TempestAsylum" target="_blank" class="social-twitter"></a></li>
+                            <li><a href="http://www.youtube.com/user/TempestAsylum?feature=mhee" target="_blank" class="social-youtube"></a></li>
+                            @*<li><a href="#" class="social-linkedin"></a></li>
+                            <li><a href="#" class="social-forrst"></a></li>
+                            <li><a href="#" class="social-dribbble"></a></li>*@
+                            </ul>                
+                        </div>
+                        <!-- End Socialarea -->
+        
+                    </div>
+    
                 </div>
+                <!-- End Footer Bottom -->
             </div>
-                @*<div class="float-right">
-                    <ul id="social">
-                        <li><a href="http://facebook.com" class="facebook">Facebook</a></li>
-                        <li><a href="http://twitter.com" class="twitter">Twitter</a></li>
-                    </ul>
-                </div>*@
         </footer>        
     </body>
 </html>

@@ -122,7 +122,7 @@ End Code
                     </fieldset>
                 </div>
             </div>
-            <input type="submit" value="Register" />
+            <input class="largesmoothrectange blackbutton" type="submit" value="Register" />
          </div>
     </fieldset>
 End Using
