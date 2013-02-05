@@ -31,21 +31,7 @@
                                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                                     <li>@Html.ActionLink("Code of Conduct", "CodeofConduct", "Home")</li>
                                     <li>@Html.ActionLink("Justice System", "JusticeSystem", "Home")</li>   
-                                    <li>                                    
-                                        @Html.ActionLink("Tournament", "Index", "Tournament")
-                                        @*<ul>
-                                            <li>
-                                            @Html.ActionLink("DGL", "DGL", "Tournament")
-                                	            <ul>
-                                    	            <li><a href="#" title="Response Other Dropdown">Demo Tab</a></li>
-                                                    <li><a href="#" title="Response Other Dropdown">Demo Tab</a></li>
-                                                    <li><a href="#" title="Response Other Dropdown">Demo Tab</a></li>
-                                                    <li><a href="#" title="Response Other Dropdown">Demo Tab</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>*@
-                                    </li>              
-                                    @*<li>@Html.ActionLink("News", "Index", "News")</li>*@                   
+                                    <li>@Html.ActionLink("Tournament", "Index", "Tournament")</li>                             
                                 </ul>                
                             </div>
                             <!-- End navigation -->                
