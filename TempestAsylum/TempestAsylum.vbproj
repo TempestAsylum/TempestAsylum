@@ -297,7 +297,6 @@
     <Content Include="Views\Shared\_Head.vbhtml" />
     <Content Include="Views\Shared\body\_Header.vbhtml" />
     <Content Include="Views\Shared\body\_Footer.vbhtml" />
-    <Content Include="Views\Shared\body\_Content.vbhtml" />
     <Content Include="Views\Home\HomePartial.vbhtml" />
     <Content Include="Views\Shared\body\_Scripts.vbhtml" />
     <Content Include="Views\Tournament\TmAInternal.vbhtml" />
