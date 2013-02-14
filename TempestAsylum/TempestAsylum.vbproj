@@ -19,6 +19,10 @@
     <OptionInfer>On</OptionInfer>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -147,11 +151,13 @@
     <Compile Include="Controllers\ChampionController.vb" />
     <Compile Include="Controllers\HomeController.vb" />
     <Compile Include="Controllers\NewsController.vb" />
+    <Compile Include="Controllers\SponsorController.vb" />
     <Compile Include="Controllers\TournamentController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModel.vb" />
+    <Compile Include="Models\PartialModel.vb" />
     <Compile Include="Models\TournamentModel.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
   </ItemGroup>
@@ -174,6 +180,7 @@
     <Content Include="Images\4column.png" />
     <Content Include="Images\5code.jpg" />
     <Content Include="Images\5google.jpg" />
+    <Content Include="Images\advertising\add.jpg" />
     <Content Include="Images\arrow-down.png" />
     <Content Include="Images\arrow-up.png" />
     <Content Include="Images\avatar-reply.jpg" />
@@ -186,6 +193,7 @@
     <Content Include="Images\clock-icon.png" />
     <Content Include="Images\cross-hover.png" />
     <Content Include="Images\cross.png" />
+    <Content Include="Images\sponsors\FTI.png" />
     <Content Include="Images\tournaments\dgl.jpg" />
     <Content Include="Images\download-icon.png" />
     <Content Include="Images\favicon.png" />
@@ -247,7 +255,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Images\advertising\" />
     <Folder Include="Images\leagueoflegends\champions\" />
   </ItemGroup>
   <ItemGroup>
@@ -264,8 +271,8 @@
     <Content Include="Views\Shared\Error.vbhtml" />
     <Content Include="Views\Shared\_Layout.vbhtml" />
     <Content Include="Views\Shared\_LoginPartial.vbhtml" />
-    <Content Include="Views\Home\CodeofConduct.vbhtml" />
-    <Content Include="Views\Home\JusticeSystem.vbhtml" />
+    <Content Include="Views\Home\CodeofConductPartial.vbhtml" />
+    <Content Include="Views\Home\JusticeSystemPartial.vbhtml" />
     <Content Include="Views\Champion\Index.vbhtml" />
     <Content Include="Views\Account\Profile.vbhtml" />
   </ItemGroup>
@@ -283,6 +290,20 @@
     <Content Include="Views\Tournament\Rules.vbhtml" />
     <Content Include="Views\Tournament\DGL\_Teams.vbhtml" />
     <Content Include="Views\Tournament\DGL\_Schedule.vbhtml" />
+    <Content Include="Views\Tournament\DGL\_Match.vbhtml" />
+    <Content Include="Views\Shared\_sponsor.vbhtml" />
+    <Content Include="Views\Shared\_wsclol.vbhtml" />
+    <Content Include="Views\Sponsor\FTI.vbhtml" />
+    <Content Include="Views\Shared\_Head.vbhtml" />
+    <Content Include="Views\Shared\body\_Header.vbhtml" />
+    <Content Include="Views\Shared\body\_Footer.vbhtml" />
+    <Content Include="Views\Shared\body\_Content.vbhtml" />
+    <Content Include="Views\Home\HomePartial.vbhtml" />
+    <Content Include="Views\Shared\body\_Scripts.vbhtml" />
+    <Content Include="Views\Tournament\TmAInternal.vbhtml" />
+    <Content Include="Views\Tournament\TmAInternal\Teams.vbhtml" />
+    <Content Include="Views\Tournament\TmAInternal\Bracket.vbhtml" />
+    <Content Include="Views\Tournament\TmAInternal\MemberSponsors.vbhtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

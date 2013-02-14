@@ -5,6 +5,8 @@ body{
 	top:0;
 	background-image: url(../images/bg.png);
 	background-repeat: repeat;
+	background-position: top left;
+    background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -20,7 +22,7 @@ h1,h2{
 
 p{
 	font-family: 'HelveticaLTStdRoman',Arial, Helvetica, sans-serif;
-	font-size:10pt;
+	font-size:11pt;
 }
 
 hr{
@@ -37,16 +39,28 @@ hr{
 #header{
 	width:100%;
 	float:left;
-	background-image: url(../images/header-bg.png);
+	/*background-image: url(../images/header-bg.png);*/
 	background-repeat: repeat-x;
 	height:160px;
 	padding-bottom:27px;
 }
 
+#headertop{
+	background-color:white;
+	width:100%;
+	box-shadow:0px -1px 5px #d0cfcf;
+	margin-top:0px;
+	min-height:46px;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index:3000;
+}
+
 #header_small{
 	max-width:1000px;
 	float:none;
-	margin:32px auto 0px auto;
+	margin:90px auto 0px auto;
 }
 
 #logo{
@@ -611,7 +625,7 @@ hr{
 
 .boxes-padding{
 	width:94%;
-	height:100% !important;
+	/*height:100% !important;*/
 	padding:3%;
 }
 
@@ -643,6 +657,9 @@ hr{
 	margin-left:2%;
 }
 
+.shadow {
+box-shadow:0px -1px 5px #d0cfcf;
+}
 
 /* Featured Section*/
 .bti{
@@ -684,7 +701,7 @@ hr{
 #footer{
 	width:100%;
 	float:left;
-	background-image: url(../images/footer-bg.png);
+	/*background-image: url(../images/footer-bg.png);*/
 	min-height:380px;
 	margin-top:20px;
 }
@@ -692,7 +709,7 @@ hr{
 #footertop{
 	width:100%;
 	float:left;
-	background-image: url(../images/footer-top.png);
+	/*background-image: url(../images/footer-top.png);*/
 	background-repeat: repeat-x;
 	background-position: left top;
 }
@@ -3163,3 +3180,100 @@ textarea.contacttextarea{
 	font-family: 'BebasNeueRegular',Arial, Helvetica, sans-serif;
 	font-size:15pt;
 }
+
+
+/**********************************************/
+/*************** Table Section ****************/
+/**********************************************/
+table, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+table { /* tables still need 'cellspacing="0"' in the markup */
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+table {
+	background: #f4f2e7;
+	border-left: 1px solid #f4f2e7;
+	border-right: 1px solid #f4f2e7;
+	margin: 0 0 25px 0;
+	width: 100%;
+}
+table caption {
+	color: #999;
+	font-size: .85em;
+	text-transform: uppercase;
+}
+th {
+	border-top: 1px solid #f4f2e7;
+	border-bottom: 1px solid #f4f2e7;
+	border-right: 1px solid #f4f2e7;
+	font: normal normal bold 25px Arial, "Helvetica Neue", Helvetica, sans-serif;
+	padding: 4px 2%;
+	text-align: left;
+}
+td, tbody th {
+	background: #ece9da;
+	border-bottom: 1px solid #f4f2e7;
+	border-right: 1px solid #f4f2e7;
+	color: #666;
+	font-size: 14px;
+	/*font-size: 1.4rem;*/
+	padding: 4px 2%;
+}
+tr:hover td,
+tr:hover th {
+	background: #e0dcca;
+}
+thead th,
+tfoot th,
+thead tr:hover th,
+tfoot tr:hover th {
+	color: #f3f0e0;
+	background: #635a52;
+}
+td.pad,
+th.pad {
+	background: #f3f0e0;
+}
+
+.r0 
+{
+	background: #f3f0e0;
+	border-bottom: 1px solid #f4f2e7;
+	border-right: 1px solid #f4f2e7;
+	color: #666;
+	font-size: 14px;
+	/*font-size: 1.4rem;*/
+	padding: 4px 2%;    
+}
+
+.r0:hover
+{
+	background: #e0dcca;    
+}
+
+.sub_header
+{
+    border-top: 1px solid #f4f2e7;
+	border-bottom: 1px solid #f4f2e7;
+	border-right: 1px solid #f4f2e7;
+	font: normal normal bold .85em/25px Arial, "Helvetica Neue", Helvetica, sans-serif;
+	padding: 4px 2%;
+	text-align: left;
+}
+
+
+/**********************************************/
+/*************** Text Elements ****************/
+/**********************************************/

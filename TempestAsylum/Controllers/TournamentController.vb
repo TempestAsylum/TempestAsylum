@@ -20,8 +20,14 @@
             ViewData("Schedule5") = Tournament.Week(4)
             ViewData("Schedule6") = Tournament.Week(5)
             ViewData("Schedule7") = Tournament.Week(6)
+            ViewData("Match") = Tournament.Match
             Return View()
         End Function
+
+        Function TmAInternal() As ActionResult
+            Return View()
+        End Function
+
 
         Function Rules() As ActionResult
             Return View()

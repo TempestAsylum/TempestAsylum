@@ -35,9 +35,24 @@ End Code
                         
                         	        <div class="portfoliowrap">
                                         <div class="title">Tournaments - DGL<span class="titlearrow"></span></div>
-                                        <div class="portfolioimage"><img src="~/images/tournaments/dgl.jpg" alt="Lorem ipsum dolor sit amet" width="305" height="132" border="0"></div>
+                                        <div class="portfolioimage"><img src="~/images/tournaments/dgl.jpg" width="305" height="132" border="0"></div>
                                         <div class="text">
                                             League of Legends is the most played game in the world and just so happens to be perfectly designed for league play. The Do Gaming League is proud to host a league for such an amazing title and its respective community.
+                                            <span class="textarrow"></span>
+                                        </div>
+                                    </div>
+                        
+                                </div>
+                            </a>
+
+                            <a href="~/Tournament/TmAInternal">
+                                <div class="element2 logo">
+                        
+                        	        <div class="portfoliowrap">
+                                        <div class="title">Tournaments - TmA Internal<span class="titlearrow"></span></div>
+                                        <div class="portfolioimage"><img src="~/images/tma.jpg" width="305" height="132" border="0"></div>
+                                        <div class="text">
+                                            Tempest Asylums Internal Tournament
                                             <span class="textarrow"></span>
                                         </div>
                                     </div>
@@ -63,27 +78,8 @@ End Code
     <!-- End Left Section -->
 
     <!-- Start Right Section -->
-    <div class="rightsection">
-        
-        <!-- Start Blog Widget -->
-        <div class="blogwidgetstart">
-            <!-- Start Advertising Widget -->
-            <div class="widgettitle"><h4>Advertising</h4></div>
-                
-            <div class="widgetbody">
-                
-                <div class="blogadvertising">
-                    
-                <a href="#"><img src="~/images/advertising/add.jpg" alt="Add"></a>
-                    
-                </div>
-                
-            </div>
-            <!-- End Advertising Widget -->
-            <span class="box-arrow"></span>
-            
-        </div>
-        <!-- End Blog Widget -->          
+    <div class="rightsection">  
+            @Html.Partial("_sponsor")
         
     </div>
     <!-- End Right Section -->

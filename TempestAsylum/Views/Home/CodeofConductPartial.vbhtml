@@ -3,13 +3,14 @@
     Layout = "~/Views/Shared/_Layout.vbhtml"
 End Code
 
+
 <div id="main-wrap">
     <!-- Start Left Section -->
     <div class="leftsection">      
     
         <div id="main-wrap">
             <!-- Start H1 Title -->
-            <div class="titlesnormal">    
+            <div class="titlesnormal shadow">    
                 <h1>Code of Conduct</h1>        
                 <span></span>    
             </div>
@@ -17,7 +18,7 @@ End Code
 
             <!-- Start Main Body Wrap -->
             <div id="main-wrap">        
-                <div class="boxes-full">        
+                <div class="boxes-full shadow">        
                     <div class="boxes-padding fullpadding">            	
                         <!-- Start None Split Section -->
                         <div class="splitnone">                    
@@ -91,7 +92,7 @@ End Code
                         </div>
                         <!-- End None Split Section -->
                     </div>
-                </div>
+                </div>                
             </div>
         </div>
     </div>
@@ -101,25 +102,8 @@ End Code
     <div class="rightsection">
         
         <div id="main-wrap">
-            <!-- Start Blog Widget -->
-            <div class="blogwidgetstart">
-                <!-- Start Advertising Widget -->
-                <div class="widgettitle"><h4>Advertising</p></blockquote></div>
-                
-                <div class="widgetbody">
-                
-                    <div class="blogadvertising">
-                    
-                    <a href="#"><img src="~/images/advertising/add.jpg" alt="Add"></a>
-                    
-                    </div>
-                
-                </div>
-                <!-- End Advertising Widget -->
-                <span class="box-arrow"></span>
-            
-            </div>
-            <!-- End Blog Widget -->
+        
+            @Html.Partial("_sponsor")
 
             <div class="blogwidget">
             <!-- Start Categories Widget -->
@@ -150,3 +134,7 @@ End Code
     </div>
     <!-- End Right Section -->
 </div>
+
+<!-- Start Scroll To Top Div -->
+<div id="scrolltab"></div>
+<!-- End Scroll To Top Div -->

@@ -11,7 +11,6 @@ Else
     </ul>
 End If*@
     @<div>
-        @Html.ActionLink("Register", "Register", "Account", routeValues:=Nothing, htmlAttributes:=New With {.id = "registerLink"})
         @Html.ActionLink("Log in", "Login", "Account", routeValues:=Nothing, htmlAttributes:=New With {.id = "loginLink"})
      </div>
 End Code

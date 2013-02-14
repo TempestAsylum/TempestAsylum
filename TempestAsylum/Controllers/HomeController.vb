@@ -4,17 +4,25 @@
 
         '
         ' GET: /Home
-
         Function Index() As ActionResult
             Return View()
         End Function
 
-        Function CodeofConduct() As ActionResult
-            Return View()
+        'Function Index(VSession As String) As ActionResult
+        '    ViewData("Partial") = VSession
+        '    Return View()
+        'End Function
+
+        Function HomePartial() As ActionResult
+            Return PartialView("HomePartial")
         End Function
 
-        Function JusticeSystem() As ActionResult
-            Return View()
+        Function CodeofConductPartial() As ActionResult
+            Return PartialView("CodeofConductPartial")
+        End Function
+
+        Function JusticeSystemPartial() As ActionResult
+            Return PartialView("JusticeSystemPartial")
         End Function
     End Class
 End Namespace

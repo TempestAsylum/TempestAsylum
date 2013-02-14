@@ -7,6 +7,7 @@ Public Class TournamentModel
 
     Public Teams As New List(Of String)
     Public Week(6) As List(Of String)
+    Public Match As New List(Of String)
 
     Private WebPage As New WebPage
     Private Sub GetDGLInfo()
@@ -65,10 +66,18 @@ Public Class TournamentModel
             For Each node As HtmlNode In _HtmlNodeCollection.Item(3 + count).SelectNodes("tr")
                 If node.InnerHtml.Contains("TmA") Then
                     Dim temp = node.SelectNodes("td")
-                    Week(count).Add(DirectCast(temp.Item(0), HtmlNode).InnerHtml + "  vs  " + DirectCast(temp.Item(2), HtmlNode).InnerHtml)
+                    Week(count).Add(temp.Item(0).InnerText + "  vs  " + temp.Item(2).InnerText)
+                    Dim matchLink = DirectCast(temp.Item(2), HtmlNode).InnerHtml.Split("""")
+                    Dim _matchhtml = WebPage.GetHTMLString(matchLink(1))
+                    Dim matchHtmlDocument As New HtmlDocument
+                    matchHtmlDocument.LoadHtml(_matchhtml)
+                    Dim matchVar = matchHtmlDocument.DocumentNode.SelectNodes("//table")
+                    Match.Add(DirectCast(matchVar.Item(1), HtmlNode).InnerHtml)
                 End If
             Next
             count += 1
         Loop
+
+        'Get Match
     End Sub
 End Class
