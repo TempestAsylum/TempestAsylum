@@ -75,4 +75,13 @@
         <td class="r0">Nitebabe</td>
         <td class="r0">Ghoonman</td>
     </tr>
+    
+    <tr>
+        <td class="sub_header" >Team So Low Mid</td>
+    </tr>
+    <tr>
+        <td class="r0">Jarlaxle</td>
+        <td class="r0">oSuSklo</td>
+        <td class="r0">KuFuMaster</td>
+    </tr>
 </table>

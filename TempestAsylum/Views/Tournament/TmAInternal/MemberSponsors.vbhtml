@@ -9,6 +9,9 @@
         <td class="r0">Broken Memory</td>
     </tr>
     <tr>
+        <td class="r0">FTI</td>
+    </tr>
+    <tr>
         <td class="r0">Dark Lord</td>
     </tr>
     <tr>
