@@ -25,7 +25,7 @@
                                     <li>@Html.ActionLink("TmA Internal Tournament", "TmAInternal", "Tournament")</li>
                                 </ul>
                             </li>                             
-                            <li>@Html.ActionLink("Forum", "Index", "Forum")</li>   
+                            @*<li>@Html.ActionLink("Forum", "Index", "Forum")</li>*@
                         </ul>                
                     </div>
                     <!-- End navigation -->                
