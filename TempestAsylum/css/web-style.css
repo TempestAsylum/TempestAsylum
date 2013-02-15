@@ -74,7 +74,7 @@ hr{
 	display:block;
 	padding:8px 18px 6px 18px;
 	border: 1px solid #d5d5d5;
-	background-color:#c9c9c9;
+	background-color:white;
 	font-family: 'BebasNeueRegular',Arial, Helvetica, sans-serif;
 	color:#9b248c;
 	font-size:20pt;
@@ -85,7 +85,7 @@ hr{
 #logo a:hover{
 	border: 1px solid #d5d5d5;
 	background-color:#Ab349c;
-	color:#c9c9c9;
+	color:white;
 	text-decoration:none;
 }
 
@@ -114,7 +114,7 @@ hr{
 	height:46px;
 	border: 1px solid #d5d5d5;
 	list-style-type: none;
-	background-color:#c9c9c9;
+	background-color:white;
 	margin-left:-1px;
 }
 
