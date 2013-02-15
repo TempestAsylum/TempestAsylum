@@ -27,7 +27,7 @@
         <td class="r0">Raptor</td>
     </tr>
     <tr>
-        <td class="r0">ToRaYn</td>         
+        <td class="r0">MiniKlip</td>         
     </tr>
     <tr>
         <td class="r0">Ghoonman</td>
