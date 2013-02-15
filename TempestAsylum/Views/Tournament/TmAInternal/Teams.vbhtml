@@ -83,5 +83,6 @@
         <td class="r0">Jarlaxle</td>
         <td class="r0">oSuSklo</td>
         <td class="r0">KuFuMaster</td>
+        <td class="r0">oKaNiNeo</td>
     </tr>
 </table>

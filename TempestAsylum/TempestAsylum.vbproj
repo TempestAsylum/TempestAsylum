@@ -149,6 +149,7 @@
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="Controllers\AccountController.vb" />
     <Compile Include="Controllers\ChampionController.vb" />
+    <Compile Include="Controllers\ForumController.vb" />
     <Compile Include="Controllers\HomeController.vb" />
     <Compile Include="Controllers\NewsController.vb" />
     <Compile Include="Controllers\SponsorController.vb" />
@@ -304,6 +305,7 @@
     <Content Include="Views\Tournament\TmAInternal\Bracket.vbhtml" />
     <Content Include="Views\Tournament\TmAInternal\MemberSponsors.vbhtml" />
     <Content Include="Views\Tournament\TournamentPartial.vbhtml" />
+    <Content Include="Views\Forum\Index.vbhtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
