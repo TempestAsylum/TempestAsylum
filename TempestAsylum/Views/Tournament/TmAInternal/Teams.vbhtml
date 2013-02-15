@@ -1,6 +1,6 @@
 ﻿<table>
     <tr>
-        <td class="sub_header" >S.uc.K Gaming</td>
+        <td class="sub_header">S.uc.K Gaming</td>
     </tr>
     <tr>
         <td class="r0">Affront</td>
@@ -11,7 +11,7 @@
     </tr>
 
     <tr>
-        <td class="sub_header" >Counter Gaming Logic</td>
+        <td class="sub_header">Counter Gaming Logic</td>
     </tr>
     <tr>
         <td class="r0">BadBaker</td>
@@ -22,7 +22,7 @@
     </tr>
 
     <tr>
-        <td class="sub_header" >Blazed Azubu</td>
+        <td class="sub_header">Blazed Azubu</td>
     </tr>
     <tr>
         <td class="r0">WoodenSpoon</td>
@@ -33,7 +33,7 @@
     </tr>
 
     <tr>
-        <td class="sub_header" >Bangkok Fairies</td>
+        <td class="sub_header">Bangkok Fairies</td>
     </tr>
     <tr>
         <td class="r0">Damourza</td>
@@ -44,7 +44,7 @@
     </tr>
 
     <tr>
-        <td class="sub_header" >Evil Panties</td>
+        <td class="sub_header">Evil Panties</td>
     </tr>
     <tr>
         <td class="r0">Zaraki</td>
@@ -55,7 +55,7 @@
     </tr>
 
     <tr>
-        <td class="sub_header" >Saigon Squeelers</td>
+        <td class="sub_header">Saigon Squeelers</td>
     </tr>
     <tr>
         <td class="r0">zaz00</td>
@@ -66,7 +66,7 @@
     </tr>
 
     <tr>
-        <td class="sub_header" >Copenhagen Kittens</td>
+        <td class="sub_header">Copenhagen Kittens</td>
     </tr>
     <tr>
         <td class="r0">Moonlight</td>
@@ -75,9 +75,9 @@
         <td class="r0">Nitebabe</td>
         <td class="r0">Ghoonman</td>
     </tr>
-    
+
     <tr>
-        <td class="sub_header" >Team So Low Mid</td>
+        <td class="sub_header">Team So Low Mid</td>
     </tr>
     <tr>
         <td class="r0">Jarlaxle</td>
