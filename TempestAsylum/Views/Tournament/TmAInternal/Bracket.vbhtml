@@ -1,1 +1,1 @@
-﻿<iframe height="400" width="1250" src="http://challonge.com/TmAIT/fullscreen"></iframe>
+﻿<iframe src="http://challonge.com/TmAIT/module" width="1000" height="500" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>

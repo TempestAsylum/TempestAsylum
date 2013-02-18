@@ -7,10 +7,14 @@ End Code
     <div class="leftsection">
         <div class="titlesnormal">
             <h1>TmA Internal Tournament</h1>
+            <h3>15 February 2013</h3>
             <span></span>
         </div>
 
         <div id="main-wrap">
+            <div class="boxes-full shadow">
+                @Html.Partial("~/Views/Tournament/TmAInternal/Results.vbhtml")
+            </div>
             <div class="boxes-full shadow">
                 @Html.Partial("~/Views/Tournament/TmAInternal/Teams.vbhtml")
             </div>

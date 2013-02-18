@@ -306,6 +306,7 @@
     <Content Include="Views\Tournament\TmAInternal\MemberSponsors.vbhtml" />
     <Content Include="Views\Tournament\TournamentPartial.vbhtml" />
     <Content Include="Views\Forum\Index.vbhtml" />
+    <Content Include="Views\Tournament\TmAInternal\Results.vbhtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
