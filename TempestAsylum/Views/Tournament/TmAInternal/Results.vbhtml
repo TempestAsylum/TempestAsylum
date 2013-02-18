@@ -1,4 +1,4 @@
-﻿<div id="Tournament Team Results">
+﻿@*<div id="Tournament Team Results">
     <h3>Tournament Team Results</h3>
     <table cellpadding="5" style="width: 100%; line-height: 18px">
         <tbody>
@@ -30,7 +30,7 @@
             </tr>
         </tbody>
     </table>
-</div>
+</div>*@
 <div id="Tournament Prizes">
     <h2>Tournament Prizes</h2>
     
