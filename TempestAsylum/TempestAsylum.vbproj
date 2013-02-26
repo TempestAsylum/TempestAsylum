@@ -245,6 +245,7 @@
     <Content Include="js\jquery.prettyPhoto.js" />
     <Content Include="js\twitter.js" />
     <Content Include="Refferences\FTI.dll" />
+    <Content Include="sitemap.xml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
