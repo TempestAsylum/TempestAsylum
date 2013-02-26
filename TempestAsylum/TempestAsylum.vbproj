@@ -181,12 +181,10 @@
     <Content Include="Images\3column.png" />
     <Content Include="Images\4column.png" />
     <Content Include="Images\5code.jpg" />
-    <Content Include="Images\5google.jpg" />
     <Content Include="Images\advertising\add.jpg" />
-    <Content Include="Images\arrow-down.png" />
-    <Content Include="Images\arrow-up.png" />
     <Content Include="Images\avatar-reply.jpg" />
     <Content Include="Images\avatar.jpg" />
+    <Content Include="Images\bg.jpg" />
     <Content Include="Images\bg.png" />
     <Content Include="Images\calender-big.jpg" />
     <Content Include="Images\calender-icon.png" />
@@ -195,7 +193,9 @@
     <Content Include="Images\clock-icon.png" />
     <Content Include="Images\cross-hover.png" />
     <Content Include="Images\cross.png" />
+    <Content Include="Images\social-slider - Copy.png" />
     <Content Include="Images\sponsors\FTI.png" />
+    <Content Include="Images\TmA.png" />
     <Content Include="Images\tournaments\dgl.jpg" />
     <Content Include="Images\download-icon.png" />
     <Content Include="Images\favicon.png" />
@@ -216,7 +216,6 @@
     <Content Include="Images\rejectionalert.png" />
     <Content Include="Images\responsive-icon.png" />
     <Content Include="Images\scrolltop.png" />
-    <Content Include="Images\selltheme.jpg" />
     <Content Include="Images\settings-icon.png" />
     <Content Include="Images\simple-slider-arrows-hover.png" />
     <Content Include="Images\simple-slider-arrows.png" />
