@@ -55,7 +55,7 @@
             
                 <!-- Start Logo area -->
                 <div id="logo" class="shadow">
-                    <a href="/" title="Tempest Asylum"> Tempest Asylum</a>
+                    <a href="/" title="Tempest Asylum">Tempest Asylum</a>
                 </div>
                 <!-- End Logo area -->
         
