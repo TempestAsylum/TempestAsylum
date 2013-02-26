@@ -4,9 +4,10 @@
     <div class="leftsection">
         <!-- Start Slider Wrapping -->
         <div id="sliderwrap">
-            <div id="slider" class="nivoSlider shadow">
-                <img width="400" height="400" src="~/images/TmA.jpg">
-            </div>
+                <img height="350" src="~/images/TmA.png">
+            @*<div id="slider" class="nivoSlider shadow">
+                <img height="10" src="~/images/TmA.png">
+            </div>*@
         </div>
         <!-- End Slider Wrapping -->
 

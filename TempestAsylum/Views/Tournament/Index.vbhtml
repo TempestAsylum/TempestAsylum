@@ -36,7 +36,7 @@ End Code
                                     <div class="portfoliowrap">
                                         <div class="title">Tournaments - DGL<span class="titlearrow"></span></div>
                                         <div class="portfolioimage">
-                                            <img src="~/images/tournaments/dgl.jpg" width="305" height="132" border="0"></div>
+                                            <img src="~/images/tournaments/dgl.png" width="305" height="132" border="0"></div>
                                         <div class="text">
                                             League of Legends is the most played game in the world and just so happens to be perfectly designed for league play. The Do Gaming League is proud to host a league for such an amazing title and its respective community.
                                             <span class="textarrow"></span>
@@ -52,7 +52,7 @@ End Code
                                     <div class="portfoliowrap">
                                         <div class="title">Tournaments - TmA Internal<span class="titlearrow"></span></div>
                                         <div class="portfolioimage">
-                                            <img src="~/images/tma.jpg" width="305" height="132" border="0"></div>
+                                            <img src="~/images/tma.png" width="305" height="132" border="0"></div>
                                         <div class="text">
                                             Tempest Asylums Internal Tournament
                                             <span class="textarrow"></span>

@@ -16,4 +16,5 @@
     @Html.Partial("~/Views/Shared/body/_Scripts.vbhtml")
     <link href="~/images/favicon.png" rel="shortcut icon"></link>
     <link href="~/images/favicon.png" rel="bookmark icon"></link>
+    <meta name="google-site-verification" content="ZOn1V12mVhQ9e93-OVzw3yCAMj8TcWSeGKqCgAr4lAk" />
 </head>

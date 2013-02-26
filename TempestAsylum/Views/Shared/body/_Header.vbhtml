@@ -26,6 +26,7 @@
                                 </ul>
                             </li>                             
                             @*<li>@Html.ActionLink("Forum", "Index", "Forum")</li>*@
+                            @*<li>@Html.ActionLink("Blog", "Index", "Blogger")</li>*@
                         </ul>                
                     </div>
                     <!-- End navigation -->                

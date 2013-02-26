@@ -148,6 +148,7 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="Controllers\AccountController.vb" />
+    <Compile Include="Controllers\BloggerController.vb" />
     <Compile Include="Controllers\ChampionController.vb" />
     <Compile Include="Controllers\ForumController.vb" />
     <Compile Include="Controllers\HomeController.vb" />
@@ -307,6 +308,7 @@
     <Content Include="Views\Tournament\TournamentPartial.vbhtml" />
     <Content Include="Views\Forum\Index.vbhtml" />
     <Content Include="Views\Tournament\TmAInternal\Results.vbhtml" />
+    <Content Include="Views\Blogger\Index.vbhtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
