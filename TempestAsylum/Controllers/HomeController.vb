@@ -14,15 +14,15 @@
         'End Function
 
         Function HomePartial() As ActionResult
-            Return PartialView("HomePartial")
+            Return PartialView("Home")
         End Function
 
-        Function CodeofConductPartial() As ActionResult
-            Return PartialView("CodeofConductPartial")
+        Function CodeofConduct() As ActionResult
+            Return PartialView("CodeofConduct")
         End Function
 
-        Function JusticeSystemPartial() As ActionResult
-            Return PartialView("JusticeSystemPartial")
+        Function JusticeSystem() As ActionResult
+            Return PartialView("JusticeSystem")
         End Function
     End Class
 End Namespace

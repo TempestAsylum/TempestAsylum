@@ -17,8 +17,8 @@
                     <div id="navi">                
                         <ul>                    
                             <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                            <li>@Html.ActionLink("Code of Conduct", "CodeofConductPartial", "Home")</li>
-                            <li>@Html.ActionLink("Justice System", "JusticeSystemPartial", "Home")</li>   
+                            <li>@Html.ActionLink("Code of Conduct", "CodeofConduct", "Home")</li>
+                            <li>@Html.ActionLink("Justice System", "JusticeSystem", "Home")</li>   
                             <li>@Html.ActionLink("Tournament", "Index", "Tournament")
                                 <ul>
                                     <li>@Html.ActionLink("DGL", "DGL", "Tournament")</li>
