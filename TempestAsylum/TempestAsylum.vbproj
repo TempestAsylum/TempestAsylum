@@ -196,7 +196,6 @@
     <Content Include="Images\social-slider - Copy.png" />
     <Content Include="Images\sponsors\FTI.png" />
     <Content Include="Images\TmA.png" />
-    <Content Include="Images\tournaments\dgl.jpg" />
     <Content Include="Images\download-icon.png" />
     <Content Include="Images\favicon.png" />
     <Content Include="Images\footer-bg.png" />
@@ -232,6 +231,7 @@
     <Content Include="Images\tick.png" />
     <Content Include="Images\TmA.jpg" />
     <Content Include="Images\toggles.png" />
+    <Content Include="Images\tournaments\dgl.png" />
     <Content Include="Images\tt.png" />
     <Content Include="Images\upload-icon.png" />
     <Content Include="Images\usefullinks.png" />
@@ -245,7 +245,9 @@
     <Content Include="js\jquery.prettyPhoto.js" />
     <Content Include="js\twitter.js" />
     <Content Include="Refferences\FTI.dll" />
-    <Content Include="sitemap.xml" />
+    <Content Include="sitemap.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -273,8 +275,8 @@
     <Content Include="Views\Shared\Error.vbhtml" />
     <Content Include="Views\Shared\_Layout.vbhtml" />
     <Content Include="Views\Shared\_LoginPartial.vbhtml" />
-    <Content Include="Views\Home\CodeofConductPartial.vbhtml" />
-    <Content Include="Views\Home\JusticeSystemPartial.vbhtml" />
+    <Content Include="Views\Home\CodeofConduct.vbhtml" />
+    <Content Include="Views\Home\JusticeSystem.vbhtml" />
     <Content Include="Views\Champion\Index.vbhtml" />
     <Content Include="Views\Account\Profile.vbhtml" />
   </ItemGroup>
