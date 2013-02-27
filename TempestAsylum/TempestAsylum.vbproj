@@ -150,6 +150,7 @@
     <Compile Include="Controllers\AccountController.vb" />
     <Compile Include="Controllers\BloggerController.vb" />
     <Compile Include="Controllers\ChampionController.vb" />
+    <Compile Include="Controllers\ErrorController.vb" />
     <Compile Include="Controllers\ForumController.vb" />
     <Compile Include="Controllers\HomeController.vb" />
     <Compile Include="Controllers\NewsController.vb" />
@@ -311,6 +312,7 @@
     <Content Include="Views\Forum\Index.vbhtml" />
     <Content Include="Views\Tournament\TmAInternal\Results.vbhtml" />
     <Content Include="Views\Blogger\Index.vbhtml" />
+    <Content Include="Views\Error\Index.vbhtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

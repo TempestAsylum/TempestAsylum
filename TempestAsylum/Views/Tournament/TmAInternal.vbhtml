@@ -1,5 +1,5 @@
 ﻿@Code
-    ViewData("Title") = "TmAInternal"
+    ViewData("Title") = "TmA Internal"
     Layout = "~/Views/Shared/_Layout.vbhtml"
 End Code
 

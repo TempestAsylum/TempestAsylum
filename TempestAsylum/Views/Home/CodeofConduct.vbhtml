@@ -1,5 +1,5 @@
 ﻿@Code
-    ViewData("Title") = "Tempest Asylum - Code of Conduct"
+    'ViewData("Title") = "Tempest Asylum - Code of Conduct"
     Layout = "~/Views/Shared/_Layout.vbhtml"
 End Code
 

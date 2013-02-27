@@ -1,5 +1,5 @@
 ﻿@Code
-    ViewData("Title") = "Tempest Asylum - Justice System"
+    'ViewData("Title") = "Tempest Asylum - Justice System"
     Layout = "~/Views/Shared/_Layout.vbhtml"
 End Code
 
