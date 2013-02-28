@@ -8,10 +8,10 @@
             <div class="latestthreeimage">
                 <img src="~/images/tournaments/dgl.png" width="305" height="132" border="0">
             </div>
-            <div class="text">
-                League of Legends is the most played game in the world and just so happens to be perfectly designed for league play. The Do Gaming League is proud to host a league for such an amazing title and its respective community.
+            @*<div class="text">
+                Tempest Asylum is Competing in the DGL - League of Legends
                     <span class="textarrow"></span>
-            </div>
+            </div>*@
         </div>
     </div>
 </a>

@@ -33,24 +33,10 @@
         $("a[rel^='prettyPhoto']").prettyPhoto();
     });
 </script>
-@*Partial Scripts*@
-<script type="text/javascript" charset="utf-8">
-    $(function Home()
-    {
-        $("#content").load("@Url.Action("Index", "Home")", { 'id' : '123' }, 
-                                        function (response, status, xhr)
-        {
-            if (status == "error")
-            {
-                alert("An error occurred while loading the results.");
-            }
-        });
-    });
-</script>
 <script type="text/javascript">
 
     var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-38797355-1']);
+    _gaq.push(['_setAccount', 'UA-38894527-2']);
     _gaq.push(['_trackPageview']);
 
     (function () {

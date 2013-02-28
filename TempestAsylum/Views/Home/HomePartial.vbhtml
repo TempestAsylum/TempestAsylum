@@ -56,7 +56,7 @@
     <div class="rightsection">
         @Html.Partial("_sponsor")
 
-        <!-- Start Blog Widget -->
+        @*<!-- Start Blog Widget -->
         <div class="blogwidget shadow">
             <!-- Start Categories Widget -->
             <div class="widgettitle">
@@ -77,7 +77,7 @@
             <span class="box-arrow"></span>
 
         </div>
-        <!-- End Blog Widget -->
+        <!-- End Blog Widget -->*@
 
         @Html.Partial("~/Views/Tournament/TournamentPartial.vbhtml")
 
